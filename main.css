@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('img/table.jpg');
+}
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 200px auto;
+    box-shadow: 0 0 8px;
+    
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #00c558;
+    float: left;
+    border: 1px solid #eee;
+    text-align: center;
+    color: #eee;
+    font-size: 50px;
+    padding-top: 20px;
+    user-select: none;
+}
